@@ -1,0 +1,93 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* CSS Default */
+body {
+    max-width: 720px;
+    margin: 0 auto;
+    color: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 19px;
+}
+
+h1, h2, h3 {
+    font-family: 'Press Start 2P', cursive;
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 50px;
+    color: orange;
+    text-shadow: -3px 3px 1px #444;
+    text-align: center;
+}
+p {
+    line-height: 1.5;
+}
+
+ul {
+    list-style-type: square;
+}
+
+li {
+    list-style-position: inside;
+}
+
+a {
+    color: #ff9100;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+a:hover {
+    color: orangered;
+    /* text-decoration: none; */
+}
+
+/* Content Area */
+img {
+    display: block;
+    margin: auto;
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+}
+
+header li {    
+    display: inline-block;
+    list-style-type: none;
+}
+
+#alter-user {
+    font-size: .8em;
+}
+
+/* Seletor de atributo via CSS */
+/* img[src='imagens/pac-man-pixel-art-480x480.jpg'], img[src='imagens/pac01.jpg'] {  */
+img[src] {
+    padding: 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+#tools {
+    text-align: center;
+}
+
+#tools li {
+    margin: 5px 0;
+    list-style-type: none;
+}
+
+/* Copyright area */
+.copy {
+    margin: 0;
+    padding: 20px;
+    background-color: #333;
+    color: #ccc;
+    text-align: center;
+    font-size: .8em;
+}
